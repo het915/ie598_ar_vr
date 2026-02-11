@@ -1,0 +1,18 @@
+name: IE598
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24.0
+  - matplotlib>=3.7.0
+  - jupyter
+  - ipython
+  - notebook
+  - pip
+  - pip:
+    - pygame>=2.5.0
+    - PyOpenGL>=3.1.6
+    - PyOpenGL-accelerate>=3.1.6
+    - PyGLM>=2.7.0
+    - Pillow>=10.0.0
